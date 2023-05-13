@@ -7,7 +7,7 @@ from langchain import LLMChain
 from langchain.chat_models import ChatOpenAI
 from chainApi import chain_new
 from sqlagent import FlightAgent
-from llmchain import Flightchain
+from llmchains import Flightchain
 from typing import List, Union
 from langchain.schema import AgentAction, AgentFinish, HumanMessage
 import re
